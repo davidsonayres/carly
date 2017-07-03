@@ -15,7 +15,10 @@ body {
   flex-direction: row;
   align-items: stretch;
   margin: 0;
-  background-color: #B5D5CA;
+  /*background-color: #B5D5CA;*/
+  background-image: url('images/landscape1.jpg');
+  background-size: cover;
+  background-position: 10% 18%;
 }
 
 nav {
