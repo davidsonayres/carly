@@ -35,6 +35,14 @@ nav h2 {
   cursor: pointer;
 }
 
+nav h2:hover {
+  color: grey;
+}
+
+nav h2:active {
+  color: white;
+}
+
 #stage {
   width: 78vw;
   overflow: scroll;
@@ -67,18 +75,21 @@ nav h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: 2s ease;
+  color: white;
 }
 
 #name {
   font-size: 3vw;
   letter-spacing: 0.8vw;
-  margin-top: 3vw;
+  margin: 0 19.15vw 0 0;
 }
 
 #tag {
   font-size: 1.5vw;
   letter-spacing: 0.1vw;
+  color: grey;
+  margin-top: 0;
+  margin-right: 8vw;
 }
 
 /* RESUME VIEW */
