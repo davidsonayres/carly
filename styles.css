@@ -11,7 +11,6 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  overflow: scroll;
   border: 1px solid grey;
   display: flex;
   flex-direction: row;
@@ -20,7 +19,6 @@ body {
 }
 
 nav {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   width: 15vw;
@@ -36,32 +34,34 @@ nav h2 {
 }
 
 #stage {
-  border: 1px solid red;
   width: 70vw;
+  border: 1px solid grey;
+  overflow: scroll;
 }
 
 #social-media {
-  border: 1px solid green;
   width: 15vw;
 }
 
 #header {
   position: relative;
   height: 20%;
-  border: 1px solid purple;
   display: flex;
   justify-content: center;
-  display: none;
+  /*display: none;*/
+  /*border: 1px solid grey;*/
 }
 
 #content-wrapper {
   position: relative;
-  height: 100%;
-  border: 1px solid orange;
+  /*height: 100%;*/
+  height: 80%;
+  /*border: 1px solid grey;*/
 }
 
-#welcome {
-  border: 1px solid yellow;
+/* LANDING VIEW */
+
+#welcome-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
@@ -74,10 +74,42 @@ nav h2 {
 #name {
   font-size: 3vw;
   letter-spacing: 0.8vw;
-  margin: 0;
+  margin-top: 3vw;
 }
 
 #tag {
   font-size: 1.5vw;
   letter-spacing: 0.1vw;
+}
+
+/* RESUME VIEW */
+
+#resume-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#resume-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2vw;
+}
+
+#resume-button-wrapper button {
+  border: 1px solid black;
+  padding: 1.5vw;
+  font-size: 1.3vw;
+  background-color: transparent;
+  width: 15vw;
+  margin: auto 3.5vw;
+}
+
+#resume {
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
 }
