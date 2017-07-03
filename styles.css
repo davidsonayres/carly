@@ -21,7 +21,7 @@ body {
 nav {
   display: flex;
   flex-direction: column;
-  width: 15vw;
+  width: 11vw;
   padding: 3vw 2vw;
 }
 
@@ -34,13 +34,13 @@ nav h2 {
 }
 
 #stage {
-  width: 70vw;
-  /*border: 1px solid grey;*/
+  width: 78vw;
+  border: 1px solid grey;
   overflow: scroll;
 }
 
 #social-media {
-  width: 15vw;
+  width: 11vw;
 }
 
 #header {
