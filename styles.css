@@ -15,10 +15,10 @@ body {
   flex-direction: row;
   align-items: stretch;
   margin: 0;
-  /*background-color: #B5D5CA;*/
-  background-image: none;
+  background-image: url("images/landscape1.jpg");
   background-size: cover;
-  /*background-position: bottom right;*/
+  background-position: 10% 18%;
+  transition: background-image 2s ease;
 }
 
 nav {
