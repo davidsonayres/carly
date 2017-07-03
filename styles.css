@@ -159,12 +159,12 @@ nav h2 {
 
 #connect-wrapper-left {
   position: relative;
-  width: 50%;
+  width: 45%;
   text-align: center;
 }
 
 #connect-wrapper-right {
-  width: 50%;
+  width: 55%;
 }
 
 #connect-wrapper-right input,
