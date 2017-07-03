@@ -11,11 +11,11 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  border: 1px solid grey;
   display: flex;
   flex-direction: row;
   align-items: stretch;
   margin: 0;
+  background-color: #B5D5CA;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav h2 {
 
 #stage {
   width: 70vw;
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   overflow: scroll;
 }
 
@@ -145,4 +145,41 @@ nav h2 {
 #gallery-wrapper img:nth-of-type(5)
 #gallery-wrapper img:nth-of-type(7) {
   flex-shrink: 1;
+}
+
+/* REEL VIEW */
+
+/* CONNECT VIEW */
+
+#connect-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+}
+
+#connect-wrapper-left {
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
+#connect-wrapper-right {
+  width: 50%;
+}
+
+#connect-wrapper-right input,
+#connect-wrapper-right textarea {
+  width: 100%;
+  font-size: 1.25vw;
+  padding: 5px;
+  margin: 1vh auto;
+  background-color: white;
+  border: 1px solid white;
+}
+
+#connect-wrapper-right input:nth-of-type(3) {
+  width: 30%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1vw;
 }
