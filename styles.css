@@ -81,6 +81,9 @@ nav h2:active {
 #name {
   font-size: 3vw;
   letter-spacing: 0.8vw;
+}
+
+#welcome-wrapper #name {
   margin: 0 19.15vw 0 0;
 }
 
