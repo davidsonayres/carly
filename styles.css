@@ -16,9 +16,9 @@ body {
   align-items: stretch;
   margin: 0;
   /*background-color: #B5D5CA;*/
-  background-image: url('images/Final 4.jpg');
+  background-image: none;
   background-size: cover;
-  /*background-position: 10% 18%;*/
+  /*background-position: bottom right;*/
 }
 
 nav {
@@ -68,6 +68,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: 2s ease;
 }
 
 #name {
@@ -86,6 +87,7 @@ nav h2 {
 #resume-wrapper {
   position: relative;
   width: 100%;
+  transition: 2s ease;
 }
 
 #resume-button-wrapper {
@@ -129,7 +131,7 @@ nav h2 {
   position: relative;
   display: inline;
   width: auto;
-  height: 20vw;
+  height: 25vw;
   margin: 1vw;
 }
 

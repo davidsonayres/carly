@@ -25,24 +25,9 @@
         <h1 id="name" class="caps">Carly MacIsaac</h1>
       </div>
       <div id="content-wrapper">
-        <div id="connect-wrapper">
-          <div id="connect-wrapper-left">
-            <h1 class="caps">Management</h1>
-            <h2 class="caps">Agent Name</br>Agency Name</h2>
-            <h3 class="caps">Agent Email</h3>
-          </div>
-          <div id="connect-wrapper-right">
-            <h1 class="caps">Direct</h1>
-            <form id="contact-form" name="contactform" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScGg3UlZqQizogYsGXr1WKy0FGfzXNqCmazGrwkYxG226e4zg/formResponse?" target="hidden_iframe" onsubmit="submitted=true">
-              <input class="form_input" type="text" name="" maxlength="50" placeholder="NAME" required>
-              <input class="form_input" type="email" name="" maxlength="80" placeholder="EMAIL" required>
-              <textarea class="form_input" name="" maxlength="3000" cols="25" rows="10" placeholder="MESSAGE" required></textarea>
-              <input type="submit" value="SUBMIT">
-            </form>
-
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-          </div>
+        <div id="welcome-wrapper">
+          <h1 id="name" class="caps">Carly MacIsaac</h1>
+          <h2 id="tag" class="caps">Actor | Writer | Filmmaker</h2>
         </div>
       </div>
     </div>
@@ -69,6 +54,7 @@
       $('#gallery-nav').on('click', function(e) {
         $('#content-wrapper').load('gallery.html');
         $('#header').css('display', 'block');
+        $('body').css('background-image', 'none');
       });
 
       $('#reel-nav').on('click', function(e) {
