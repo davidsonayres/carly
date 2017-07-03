@@ -11,11 +11,11 @@
   <body>
 
     <nav>
-      <h2 class="caps">Home</h2>
-      <h2 class="caps">Resume</h2>
-      <h2 class="caps">Gallery</h2>
-      <h2 class="caps">Reel</h2>
-      <h2 class="caps">Connect</h2>
+      <h2 id="home-nav" class="caps">Home</h2>
+      <h2 id="resume-nav" class="caps">Resume</h2>
+      <h2 id="gallery-nav" class="caps">Gallery</h2>
+      <h2 id="reel-nav" class="caps">Reel</h2>
+      <h2 id="connect-nav" class="caps">Connect</h2>
     </nav>
 
     <div id="stage">
@@ -35,6 +35,33 @@
       <a href="https://www.instagram.com/carlymacisaac/"><img src=""></a>
       <a href="https://www.facebook.com/carly.macisaaczerr"><img src=""></a>
     </div>
+
+    <script type=text/javascript>
+      $('#home-nav').on('click', function(e) {
+        $('#content-wrapper').load('welcome.html');
+        $('#header').css('display', 'none');
+      });
+
+      $('#resume-nav').on('click', function(e) {
+        $('#content-wrapper').load('resume.html');
+        $('#header').css('display', 'block');
+      });
+
+      $('#gallery-nav').on('click', function(e) {
+        $('#content-wrapper').load('gallery.html');
+        $('#header').css('display', 'block');
+      });
+
+      $('#reel-nav').on('click', function(e) {
+        $('#content-wrapper').load('reel.html');
+        $('#header').css('display', 'block');
+      });
+
+      $('#connect-nav').on('click', function(e) {
+        $('#content-wrapper').load('connect.html');
+        $('#header').css('display', 'block');
+      });
+    </script>
 
   </body>
 </html>
