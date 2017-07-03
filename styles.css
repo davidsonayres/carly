@@ -27,11 +27,12 @@ nav {
   padding: 3vw 2vw;
 }
 
-nav a {
+nav h2 {
   text-decoration: none;
   color: black;
   margin: 2vh;
   font-size: 1.15vw;
+  cursor: pointer;
 }
 
 #stage {
