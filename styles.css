@@ -167,7 +167,6 @@ nav h2 {
   height: 100%;
   width: 100%;
   position: relative;
-  /*font-size: 0;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -183,14 +182,14 @@ nav h2 {
 
 #gallery-left {
   position: absolute;
-  width: 50%;
-  left: 0;
+  width: 46%;
+  left: 3vw;
 }
 
 #gallery-right {
   position: absolute;
-  width: 50%;
-  right: 0;
+  width: 46%;
+  right: 3vw;
 }
 
 #gallery-left img,
