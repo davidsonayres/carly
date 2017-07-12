@@ -58,9 +58,14 @@ nav h2 {
 
 #header {
   position: relative;
-  height: 20%;
+  height: 15%;
   text-align: center;
-  display: none;
+}
+
+#name {
+  font-size: 4vw;
+  letter-spacing: 1vw;
+  color: white;
 }
 
 #content-wrapper {
@@ -88,7 +93,7 @@ nav h2 {
   color: white;
 }
 
-#name {
+#home-body #name {
   font-size: 4vw;
   letter-spacing: 1vw;
   color: white;
@@ -108,10 +113,14 @@ nav h2 {
 
 /* RESUME VIEW */
 
+#resume-body {
+  background-color: #BFBFBF;
+}
+
 #resume-wrapper {
   position: relative;
+  height: 85%;
   width: 100%;
-  transition: 2s ease;
 }
 
 #resume-button-wrapper {
@@ -127,16 +136,32 @@ nav h2 {
   background-color: transparent;
   width: 15vw;
   margin: auto 3.5vw;
+  outline: none;
+}
+
+#resume-button-wrapper button:hover {
+  border: 1px solid grey;
+  color: grey;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#resume-button-wrapper button:active {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
 }
 
 #resume {
   position: relative;
-  width: 50vw;
-  height: 100vh;
-  background-color: grey;
+  width: 55vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vh;
+}
+
+#resume img {
+  width: 100%;
 }
 
 /* GALLERY VIEW */
