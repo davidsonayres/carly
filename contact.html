@@ -1,19 +1,54 @@
-<div id="connect-wrapper">
-  <div id="connect-wrapper-left">
-    <h1 class="caps">Management</h1>
-    <h2 class="caps">Agent Name</br>Agency Name</h2>
-    <h3 class="caps">Agent Email</h3>
-  </div>
-  <div id="connect-wrapper-right">
-    <h1 class="caps">Direct</h1>
-    <form id="contact-form" name="contactform" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScGg3UlZqQizogYsGXr1WKy0FGfzXNqCmazGrwkYxG226e4zg/formResponse?" target="hidden_iframe" onsubmit="submitted=true">
-      <input class="form_input" type="text" name="" maxlength="50" placeholder="NAME" required>
-      <input class="form_input" type="email" name="" maxlength="80" placeholder="EMAIL" required>
-      <textarea class="form_input" name="" maxlength="3000" cols="25" rows="10" placeholder="MESSAGE" required></textarea>
-      <input type="submit" value="SUBMIT">
-    </form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    <link type="text/css" rel="stylesheet" href="styles.css">
 
-  </div>
-</div>
+    <title></title>
+  </head>
+  <body id="contact-body">
+
+    <nav>
+      <h2 class="caps"><a href="index.html">Home</a></h2>
+      <h2 class="caps"><a href="gallery.html">Photos</a></h2>
+      <h2 class="caps"><a href="resume.html">Resume</a></h2>
+      <h2 class="caps"><a href="reel.html">Reel</a></h2>
+      <h2 class="caps"><a href="writing.html">Writing</a></h2>
+      <h2 class="caps"><a href="contact.html">Contact</a></h2>
+    </nav>
+
+    <div id="stage">
+      <div id="header">
+        <h1 id="name" class="caps">Carly MacIsaac</h1>
+      </div>
+      <div id="connect-wrapper">
+        <div id="connect-wrapper-left">
+          <h1 class="caps">Management</h1>
+          <h2 class="caps">Patrick Yang</br>Oldfield Talent Management</h2>
+          <h3 class="caps">Agent Email</h3>
+        </div>
+        <div id="connect-wrapper-right">
+          <h1 class="caps">Direct</h1>
+          <form id="contact-form" name="contactform" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLScGg3UlZqQizogYsGXr1WKy0FGfzXNqCmazGrwkYxG226e4zg/formResponse?" target="hidden_iframe" onsubmit="submitted=true">
+            <input class="form_input" type="text" name="" maxlength="50" placeholder="NAME" required>
+            <input class="form_input" type="email" name="" maxlength="80" placeholder="EMAIL" required>
+            <textarea class="form_input" name="" maxlength="3000" cols="25" rows="10" placeholder="MESSAGE" required></textarea>
+            <input type="submit" value="SEND">
+          </form>
+
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="social-media">
+      <a href="http://www.imdb.com/name/nm5925605/"><img src=""></a>
+      <a href="https://www.instagram.com/carlymacisaac/"><img src=""></a>
+      <a href="https://www.facebook.com/carly.macisaaczerr"><img src=""></a>
+    </div>
+
+  </body>
+</html>
