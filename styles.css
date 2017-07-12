@@ -23,6 +23,7 @@ body {
 nav {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   width: 11vw;
   padding: 3vw 2vw;
 }
@@ -92,7 +93,7 @@ nav h2:active {
   letter-spacing: 0.1vw;
   color: grey;
   margin-top: 0;
-  margin-right: 8vw;
+  margin-left: 3vw;
 }
 
 /* RESUME VIEW */
