@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   align-items: stretch;
   margin: 0;
+  background-color: #BFBFBF;
 }
 
 nav {
@@ -112,10 +113,6 @@ nav h2 {
 }
 
 /* RESUME VIEW */
-
-#resume-body {
-  background-color: #BFBFBF;
-}
 
 #resume-wrapper {
   position: relative;
