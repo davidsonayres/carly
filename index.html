@@ -6,31 +6,22 @@
 
     <link type="text/css" rel="stylesheet" href="styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
     <title></title>
   </head>
-  <body>
+  <body id="home-body">
 
     <nav>
-      <h2 id="home-nav" class="caps">Home</h2>
-      <h2 id="gallery-nav" class="caps">Photos</h2>
-      <h2 id="resume-nav" class="caps">Resume</h2>
-      <h2 id="reel-nav" class="caps">Reel</h2>
-      <h2 id="writing-nav" class="caps">Writing</h2>
-      <h2 id="connect-nav" class="caps">Contact</h2>
+      <h2 class="caps"><a href="index.html">Home</a></h2>
+      <h2 class="caps"><a href="gallery.html">Photos</a></h2>
+      <h2 class="caps"><a href="resume.html">Resume</a></h2>
+      <h2 class="caps"><a href="reel.html">Reel</a></h2>
+      <h2 class="caps"><a href="writing.html">Writing</a></h2>
+      <h2 class="caps"><a href="contact.html">Contact</a></h2>
     </nav>
 
     <div id="stage">
-      <div id="header">
-        <h1 id="name" class="caps">Carly MacIsaac</h1>
-      </div>
-      <div id="content-wrapper">
-        <div id="welcome-wrapper">
-          <h1 id="name" class="caps">Carly MacIsaac</h1>
-          <h2 id="tag" class="caps">Actor | Writer</h2>
-        </div>
-      </div>
+      <h1 id="name" class="caps">Carly MacIsaac</h1>
+      <h2 id="tag" class="caps">Actor | Writer</h2>
     </div>
 
     <div id="social-media">
@@ -38,38 +29,6 @@
       <a href="https://www.instagram.com/carlymacisaac/"><img src=""></a>
       <a href="https://www.facebook.com/carly.macisaaczerr"><img src=""></a>
     </div>
-
-    <script type=text/javascript>
-      $('#home-nav').on('click', function(e) {
-        $('#content-wrapper').load('welcome.html');
-        $('#header').css('display', 'none');
-        $('body').css('background-image', 'url("images/landscape1.jpg")');
-        $('body').css('background-position', '10% 18%');
-      });
-
-      $('#resume-nav').on('click', function(e) {
-        $('#content-wrapper').load('resume.html');
-        $('#header').css('display', 'block');
-      });
-
-      $('#gallery-nav').on('click', function(e) {
-        $('#content-wrapper').load('gallery.html');
-        $('#header').css('display', 'block');
-        $('body').css('background-image', 'none');
-      });
-
-      $('#reel-nav').on('click', function(e) {
-        $('#content-wrapper').load('reel.html');
-        $('#header').css('display', 'block');
-      });
-
-      $('#connect-nav').on('click', function(e) {
-        $('#content-wrapper').load('connect.html');
-        $('#header').css('display', 'block');
-        $('body').css('background-image', 'url("images/window.jpg")');
-        $('body').css('background-position', 'bottom right');
-      });
-    </script>
 
   </body>
 </html>
