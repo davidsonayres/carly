@@ -170,7 +170,7 @@ nav h2 {
   height: 100%;
   width: 100%;
   position: relative;
-  font-size: 0;
+  /*font-size: 0;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -184,9 +184,30 @@ nav h2 {
   margin: 1vw;
 }
 
-#gallery-wrapper img:nth-of-type(2),
+#gallery-left {
+  position: absolute;
+  width: 50%;
+  left: 0;
+}
+
+#gallery-right {
+  position: absolute;
+  width: 50%;
+  right: 0;
+}
+
+#gallery-left img,
+#gallery-right img {
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 1vw;
+
+}
+
+/*#gallery-wrapper img:nth-of-type(2),
 #gallery-wrapper img:nth-of-type(4),
-#gallery-wrapper img:nth-of-type(6) {
+#gallery-wrapper img:nth-of-type(1) {
   flex-grow: 2;
 }
 
@@ -195,7 +216,7 @@ nav h2 {
 #gallery-wrapper img:nth-of-type(5)
 #gallery-wrapper img:nth-of-type(7) {
   flex-shrink: 1;
-}
+}*/
 
 /* REEL VIEW */
 
