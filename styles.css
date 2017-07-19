@@ -38,6 +38,8 @@ nav {
   justify-content: flex-end;
   width: 11vw;
   padding: 3vw 2vw;
+  float: left;
+  margin-bottom: 5vh;
 }
 
 nav h2 {
@@ -46,15 +48,21 @@ nav h2 {
   margin: 2vh;
   font-size: 1.15vw;
   cursor: pointer;
+  font-weight: 600;
 }
 
 #stage {
-  width: 78vw;
-  overflow: scroll;
+  width: 100vw;
+  overflow: auto;
+  padding: auto 11vw;
+  z-index: -10;
 }
 
 #social-media {
   width: 11vw;
+  float: right;
+  text-align: right;
+  padding: 0.75vw;
 }
 
 #header {
@@ -203,6 +211,19 @@ nav h2 {
 
 /* REEL VIEW */
 
+#reel-body {
+  background-image: url("images/videogirl.png");
+  background-size: cover;
+}
+
+#reel-body nav a {
+  color: grey;
+}
+
+#reel-body nav a:hover {
+  color: white;
+}
+
 /* CONNECT VIEW */
 
 #contact-body {
@@ -264,4 +285,16 @@ nav h2 {
 
 #connect-wrapper-right input:nth-of-type(3):hover {
   background-color: white;
+}
+
+#contact-body nav a:hover {
+  color: white;
+}
+
+/* SOCIAL MEDIA */
+
+i {
+  width: 2vw;
+  margin: 0.5vw;
+  opacity: 0.55;
 }
