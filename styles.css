@@ -248,10 +248,12 @@ nav h2 {
   text-align: center;
   color: white;
   opacity: 0.85;
+  display: none;
 }
 
 #connect-wrapper-right {
   width: 55%;
+  margin-left: 8.5vw;
 }
 
 #connect-wrapper-left h1,
@@ -293,6 +295,14 @@ nav h2 {
 
 #contact-body nav a:hover {
   color: white;
+}
+
+#contact-body #social-media i {
+  color: white;
+}
+
+#contact-body #social-media i:hover {
+  opacity: 1;
 }
 
 /* SOCIAL MEDIA */
