@@ -328,11 +328,12 @@ nav h2 {
   padding: 1vh 2vw;
   width: 54.7%;
   margin-left: 18vw;
-  border-radius: 40px;
+  margin-top: 0;
+  border-radius: 0 0 10px 10px;
 }
 
 #blurb:hover {
-  background-color: grey;
+  background-color: #730024;
   color: white;
   opacity: 1;
 }
