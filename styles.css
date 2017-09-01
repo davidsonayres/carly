@@ -305,6 +305,38 @@ nav h2 {
   opacity: 1;
 }
 
+/* EASY V VIEW */
+
+#easyv-body {
+  background-image: url("images/EasyV2.jpg");
+  background-size: 110%;
+  background-position: 10% 20%;
+}
+
+#trailer-wrapper {
+  /*margin-left: -3vw;*/
+  margin-top: 7vh;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#blurb {
+  text-align: left;
+  color: black;
+  opacity: 0.5;
+  padding: 1vh 2vw;
+  width: 54.7%;
+  margin-left: 18vw;
+  border-radius: 40px;
+}
+
+#blurb:hover {
+  background-color: grey;
+  color: white;
+  opacity: 1;
+}
+
 /* SOCIAL MEDIA */
 
 i {
