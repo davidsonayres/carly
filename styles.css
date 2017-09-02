@@ -326,16 +326,16 @@ nav h2 {
   color: black;
   opacity: 0.5;
   padding: 1vh 2vw;
-  width: 54.7%;
-  margin-left: 18vw;
-  margin-top: 0;
+  width: 54.75%;
+  margin-left: 18.05vw;
+  margin-top: -0.75vh;
   border-radius: 0 0 10px 10px;
 }
 
 #blurb:hover {
-  background-color: #730024;
+  background-color: #A5264D;
   color: white;
-  opacity: 1;
+  opacity: 0.85;
 }
 
 /* SOCIAL MEDIA */
