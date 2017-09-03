@@ -307,6 +307,10 @@ nav h2 {
 
 /* EASY V VIEW */
 
+#header img {
+  height: 18vh;
+}
+
 #easyv-body {
   background-image: url("images/EasyV2.jpg");
   background-size: 110%;
@@ -513,8 +517,25 @@ i {
 
   /* EASY V VIEW */
 
+  #trailer-wrapper {
+    margin-top: 1vh;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    width: 80%;
+  }
+
+  #trailer-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   #blurb {
-    margin-left: 12.7vw;
+    margin: 0 auto 5vh 8vw;
+    width: 80%;
+
   }
 
   /* WRITING/PUBLICATION VIEW */
@@ -526,49 +547,18 @@ i {
   /* CONNECT VIEW */
 
   #contact-body {
-    background-position: 5% -2%;
+    background-position: 2% 5%;
+    background-size: 120%;
   }
 
   #connect-wrapper-right {
     width: 70%;
-    margin-left: 10.5vw;
-    margin-top: 10vh;
+    margin-left: 13.5vw;
+    margin-top: 9vh;
   }
 
   #connect-wrapper-right input,
   #connect-wrapper-right textarea {
     font-size: 1.6vw;
-  }
-
-  #connect-wrapper-right input:valid,
-  #connect-wrapper-right textarea:valid,
-  #connect-wrapper-right input:hover,
-  #connect-wrapper-right textarea:hover {
-    opacity: 0.8;
-  }
-
-  #connect-wrapper-right input:nth-of-type(3) {
-    width: 30%;
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 1vw;
-    opacity: 1;
-    cursor: pointer;
-  }
-
-  #connect-wrapper-right input:nth-of-type(3):hover {
-    background-color: white;
-  }
-
-  #contact-body nav a:hover {
-    color: white;
-  }
-
-  #contact-body #social-media i {
-    color: white;
-  }
-
-  #contact-body #social-media i:hover {
-    opacity: 1;
   }
 }
