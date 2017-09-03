@@ -323,19 +323,14 @@ nav h2 {
 
 #blurb {
   text-align: left;
-  color: black;
-  opacity: 0.5;
+  background-color: #A5264D;
+  color: white;
+  opacity: 0.85;
   padding: 1vh 2vw;
   width: 54.75%;
   margin-left: 18.05vw;
   margin-top: -0.75vh;
   border-radius: 0 0 10px 10px;
-}
-
-#blurb:hover {
-  background-color: #A5264D;
-  color: white;
-  opacity: 0.85;
 }
 
 /* SOCIAL MEDIA */
