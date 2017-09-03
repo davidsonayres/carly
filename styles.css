@@ -314,7 +314,6 @@ nav h2 {
 }
 
 #trailer-wrapper {
-  /*margin-left: -3vw;*/
   margin-top: 7vh;
   position: relative;
   width: 100%;
@@ -327,8 +326,8 @@ nav h2 {
   color: white;
   opacity: 0.85;
   padding: 1vh 2vw;
-  width: 54.75%;
-  margin-left: 18.05vw;
+  width: 560px;
+  margin-left: 20.6vw;
   margin-top: -0.75vh;
   border-radius: 0 0 10px 10px;
 }
@@ -380,4 +379,110 @@ i {
   width: 2vw;
   margin: 0.5vw;
   opacity: 0.55;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1299px) {
+
+  /* LANDING VIEW */
+
+  #home-body {
+    background-position: 58% 9%;
+    background-repeat: no-repeat;
+    background-size: 115%;
+  }
+
+  #social-media {
+    text-align: center;
+  }
+
+  nav h2 {
+    font-size: 1.6vw;
+  }
+
+  #home-body #name {
+    top: 26vh;
+  }
+
+  #tag {
+    font-size: 1.85vw;
+    top: 34vh;
+  }
+
+  /* GALLERY VIEW */
+
+  #gallery-wrapper {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* RESUME VIEW */
+
+  #resume {
+    width: 83%;
+  }
+
+  /* EASY V VIEW */
+
+  #blurb {
+    margin-left: 12.7vw;
+  }
+
+  /* WRITING/PUBLICATION VIEW */
+
+  #pub-wrapper {
+    height: 57vh;
+  }
+
+  /* CONNECT VIEW */
+
+  #contact-body {
+    background-position: 5% -2%;
+  }
+
+  #connect-wrapper-right {
+    width: 70%;
+    margin-left: 10.5vw;
+    margin-top: 10vh;
+  }
+
+  #connect-wrapper-right input,
+  #connect-wrapper-right textarea {
+    font-size: 1.6vw;
+  }
+
+  #connect-wrapper-right input:valid,
+  #connect-wrapper-right textarea:valid,
+  #connect-wrapper-right input:hover,
+  #connect-wrapper-right textarea:hover {
+    opacity: 0.8;
+  }
+
+  #connect-wrapper-right input:nth-of-type(3) {
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 1vw;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  #connect-wrapper-right input:nth-of-type(3):hover {
+    background-color: white;
+  }
+
+  #contact-body nav a:hover {
+    color: white;
+  }
+
+  #contact-body #social-media i {
+    color: white;
+  }
+
+  #contact-body #social-media i:hover {
+    opacity: 1;
+  }
+
+
+
 }
