@@ -309,6 +309,10 @@ nav h2 {
   opacity: 1;
 }
 
+#contact-form {
+  color: white;
+}
+
 /* EASY V VIEW */
 
 #header img {
@@ -735,6 +739,11 @@ i {
 }
 
 @media only screen and (max-width:424px) {
+
+  body {
+    height: 100%;
+    overflow: scroll;
+  }
 
   nav {
     border: 1px solid white;
