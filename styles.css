@@ -752,6 +752,11 @@ i {
 
 @media only screen and (max-width:425px) {
 
+  body {
+    height: 100%;
+    overflow: scroll;
+  }
+
   nav {
     border: 1px solid white;
     position: absolute;
@@ -804,7 +809,7 @@ i {
   #home-body {
     background-position: 78% 0%;
     background-repeat: no-repeat;
-    background-size: 200vw;
+    background-size: 215vw;
   }
 
   #home-body #name {
