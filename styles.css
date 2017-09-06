@@ -782,6 +782,7 @@ i {
   }
 
   #menu-toggle {
+    display: block;
     position: absolute;
     font-size: 10vw;
     bottom: 0;
