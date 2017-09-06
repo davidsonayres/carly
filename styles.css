@@ -87,6 +87,10 @@ nav h2 {
   transition: 2s ease;
 }
 
+/*#menu-toggle {
+  display: none;
+}*/
+
 /* LANDING VIEW */
 
 #home-body {
@@ -730,7 +734,48 @@ i {
   }
 }
 
-@media only screen and (min-width:375px) and (max-width:424px) {
+@media only screen and (max-width:424px) {
+
+  nav {
+    border: 1px solid white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: white;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 0;
+    display: none;
+  }
+
+  nav h2 {
+    font-size: 1.2em;
+    opacity: 1;
+  }
+
+  #social-media {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2vw;
+    text-align: left;
+  }
+
+  #menu-toggle {
+    position: absolute;
+    font-size: 10vw;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding-left: 5vw;
+    padding-bottom: 2vh;
+  }
+
+  #menu-toggle i {
+    position: relative;
+    color: white;
+    opacity: 1;
+  }
 
   #header {
     height: 9%;
@@ -740,20 +785,50 @@ i {
   /* LANDING VIEW */
 
   #home-body {
-    background-position: 78% -5%;
+    background-position: 78% 0%;
     background-repeat: no-repeat;
-    background-size: 220%;
-  }
-
-  #social-media {
-    text-align: left;
-  }
-
-  nav h2 {
-    font-size: 3vw;
+    background-size: 280%;
   }
 
   #home-body #name {
+    top: 2.5vh;
+    font-size: 6vw;
+    left: 3vw;
+  }
+
+  #tag {
+    font-size: 4vw;
+    top: 7vh;
+    left: 3vw;
+  }
+}
+
+
+
+@media only screen and (min-width:375px) and (max-width:424px) {
+
+  #header {
+    height: 9%;
+    padding-top: 2vh;
+  }
+
+  /* LANDING VIEW */
+
+  /*#home-body {
+    background-position: 78% -5%;
+    background-repeat: no-repeat;
+    background-size: 220%;
+  }*/
+
+  /*#social-media {
+    text-align: left;
+  }*/
+
+  /*nav h2 {
+    font-size: 3vw;
+  }*/
+
+  /*#home-body #name {
     top: 2.5vh;
     font-size: 6vw;
     left: 0;
@@ -763,7 +838,7 @@ i {
     font-size: 4vw;
     top: 7vh;
     left: 0;
-  }
+  }*/
 
   /* GALLERY VIEW */
 
@@ -890,14 +965,14 @@ i {
 
 @media only screen and (max-width:374px) {
 
-  #header {
+  /*#header {
     height: 9%;
     padding-top: 2vh;
-  }
+  }*/
 
   /* LANDING VIEW */
 
-  #home-body {
+  /*#home-body {
     background-position: 78% -2%;
     background-repeat: no-repeat;
     background-size: 215%;
@@ -921,7 +996,7 @@ i {
     font-size: 4vw;
     top: 7vh;
     left: 0;
-  }
+  }*/
 
   /* GALLERY VIEW */
 

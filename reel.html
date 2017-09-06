@@ -8,6 +8,8 @@
 
     <link type="text/css" rel="stylesheet" href="styles.css">
 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
     <title></title>
   </head>
   <body id="reel-body">
@@ -35,6 +37,27 @@
       <a href="https://www.instagram.com/carlymacisaac/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
       <a href="https://www.facebook.com/carly.macisaaczerr" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
     </div>
+
+    <script type="text/javascript">
+
+    $(function() {
+      var menuVisible = false;
+      $('#menu-toggle').click(function() {
+        if (menuVisible) {
+          $('nav').css({'display':'none'});
+          menuVisible = false;
+          return;
+        }
+        $('nav').css({'display':'block'});
+        menuVisible = true;
+      });
+      $('nav').click(function() {
+        $(this).css({'display':'none'});
+        menuVisible = false;
+      });
+    });
+
+    </script>
 
   </body>
 </html>
