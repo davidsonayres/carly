@@ -23,6 +23,7 @@ a:active {
 
 body {
   width: 100vw;
+  height: 100vh;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -751,11 +752,6 @@ i {
 
 @media only screen and (max-width:425px) {
 
-  body {
-    height: 100%;
-    overflow: scroll;
-  }
-
   nav {
     border: 1px solid white;
     position: absolute;
@@ -808,7 +804,7 @@ i {
   #home-body {
     background-position: 78% 0%;
     background-repeat: no-repeat;
-    background-size: 280%;
+    background-size: 240%;
   }
 
   #home-body #name {
