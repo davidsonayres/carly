@@ -338,6 +338,14 @@ nav h2 {
   border-radius: 0 0 10px 10px;
 }
 
+#blurb a {
+  color: white;
+}
+
+#blurb a:hover {
+  color: grey;
+}
+
 /* WRITING/PUBLICATION VIEW */
 
 #pub-wrapper {
