@@ -801,44 +801,6 @@ i {
     top: 7vh;
     left: 3vw;
   }
-}
-
-
-
-@media only screen and (min-width:375px) and (max-width:424px) {
-
-  #header {
-    height: 9%;
-    padding-top: 2vh;
-  }
-
-  /* LANDING VIEW */
-
-  /*#home-body {
-    background-position: 78% -5%;
-    background-repeat: no-repeat;
-    background-size: 220%;
-  }*/
-
-  /*#social-media {
-    text-align: left;
-  }*/
-
-  /*nav h2 {
-    font-size: 3vw;
-  }*/
-
-  /*#home-body #name {
-    top: 2.5vh;
-    font-size: 6vw;
-    left: 0;
-  }
-
-  #tag {
-    font-size: 4vw;
-    top: 7vh;
-    left: 0;
-  }*/
 
   /* GALLERY VIEW */
 
@@ -856,7 +818,6 @@ i {
     margin-right: auto;
     right: 0;
     left: 0;
-    padding-left: 8vw;
   }
 
   /* RESUME VIEW */
@@ -872,10 +833,10 @@ i {
   }
 
   #resume-button-wrapper button {
-    padding: 2vw;
-    font-size: 4vw;
-    width: 40vw;
-    margin: 2vw;
+    padding: 4vw;
+    font-size: 5vw;
+    width: 50vw;
+    margin: 4vw;
   }
 
   #resume {
@@ -885,7 +846,8 @@ i {
   /* EASY V VIEW */
 
   #easyv-body {
-    background-size: 142%;
+    background-size: 230%;
+    background-position: 28% 15%;
   }
 
   #easyv-body #header {
@@ -894,7 +856,6 @@ i {
 
   #trailer-wrapper {
     margin-top: 1vh;
-    margin-left: 13vw;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     width: 80%;
@@ -909,9 +870,15 @@ i {
   }
 
   #blurb {
-    margin: 0 auto 5vh 13vw;
     width: 80%;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  #easyv-body #social-media {
+    display: none;
   }
 
   /* WRITING/PUBLICATION VIEW */
@@ -948,175 +915,20 @@ i {
 
   #contact-body {
     background-position: 73% 5%;
-    background-size: 245%;
+    background-size: 300%;
   }
 
   #connect-wrapper-right {
-    width: 77%;
-    margin-left: 13.5vw;
+    width: 80%;
     margin-top: 14vh;
   }
 
   #connect-wrapper-right input,
   #connect-wrapper-right textarea {
-    font-size: 2.5vw;
-  }
-}
-
-@media only screen and (max-width:374px) {
-
-  /*#header {
-    height: 9%;
-    padding-top: 2vh;
-  }*/
-
-  /* LANDING VIEW */
-
-  /*#home-body {
-    background-position: 78% -2%;
-    background-repeat: no-repeat;
-    background-size: 215%;
-  }
-
-  #social-media {
-    text-align: left;
-  }
-
-  nav h2 {
-    font-size: 3.25vw;
-  }
-
-  #home-body #name {
-    top: 2.5vh;
-    font-size: 6vw;
-    left: 0;
-  }
-
-  #tag {
-    font-size: 4vw;
-    top: 7vh;
-    left: 0;
-  }*/
-
-  /* GALLERY VIEW */
-
-  #gallery-wrapper {
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #gallery-left,
-  #gallery-right {
-    position: relative;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
-    left: 0;
-    padding-left: 8vw;
-  }
-
-  /* RESUME VIEW */
-
-  #resume-wrapper {
-    height: auto;
-  }
-
-  #resume-button-wrapper {
-    flex-direction: column;
-    align-items: center;
-    margin: 18vh;
-  }
-
-  #resume-button-wrapper button {
-    padding: 2vw;
-    font-size: 4vw;
-    width: 40vw;
-    margin: 2vw;
-  }
-
-  #resume {
-    display: none;
-  }
-
-  /* EASY V VIEW */
-
-  #easyv-body {
-    background-size: 142%;
-  }
-
-  #easyv-body #header {
-    height: 17vh;
-  }
-
-  #trailer-wrapper {
-    margin-top: 1vh;
-    margin-left: 13vw;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    width: 80%;
-  }
-
-  #trailer-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  #blurb {
-    margin: 0 auto 5vh 13vw;
-    width: 80%;
     font-size: 3.5vw;
   }
 
-  /* WRITING/PUBLICATION VIEW */
-
-  #pub-wrapper {
-    height: auto;
-  }
-
-  #pub-left,
-  #pub-right {
-    position: relative;
-    left: 0;
-    right: 0;
-    width: 85%;
-    margin-left: 6vw;
-    margin-right: auto;
-  }
-
-  #pub-wrapper img {
-    position: relative;
-    width: 100%;
-  }
-
-  #pub-footer {
-    position: relative;
-    margin-top: 2vh;
-  }
-
-  #pub-footer img {
-    width: 55%;
-  }
-
-  /* CONNECT VIEW */
-
-  #contact-body {
-    background-position: 73% 5%;
-    background-size: 245%;
-  }
-
-  #connect-wrapper-right {
-    width: 77%;
-    margin-left: 13.5vw;
-    margin-top: 14vh;
-  }
-
-  #connect-wrapper-right input,
-  #connect-wrapper-right textarea {
-    font-size: 2.5vw;
+  #connect-wrapper-right input:last-child {
+    color: white;
   }
 }
