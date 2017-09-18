@@ -371,15 +371,23 @@ nav h2 {
 }
 
 #pub-1,
-#pub-2 {
+#pub-2,
+#pub-4 {
   position: relative;
   width: 48%;
 }
 
+#pub-4 {
+  border: 1px solid darkgrey;
+}
+
 #pub-3 {
-  margin: 2vw;
+  margin-top: 2vw;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 35%;
+  display: block;
 }
 
 #pub-wrapper p {
