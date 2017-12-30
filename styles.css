@@ -402,6 +402,11 @@ i {
   opacity: 0.55;
 }
 
+/* POETRY VIEW */
+#poetry-body #trailer-wrapper iframe {
+  border: 5px solid black;
+}
+
 @media only screen and (min-width:1024px) and (max-width:1279px) {
 
   #menu-toggle {
