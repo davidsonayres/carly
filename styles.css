@@ -560,6 +560,14 @@ i {
     height: 57vh;
   }
 
+  #buy-button-wrapper {
+    width: 42%;
+  }
+
+  #pub-trailer-wrapper {
+    width: 42%;
+  }
+
   /* CONNECT VIEW */
 
   #contact-body {
@@ -663,6 +671,43 @@ i {
   #connect-wrapper-right input,
   #connect-wrapper-right textarea {
     font-size: 1.6vw;
+  }
+
+  /* WRITING/PUBLICATIONS VIEW */
+
+  #book-wrapper {
+    height: 120vh;
+  }
+
+  #book-cover {
+    height: auto;
+    width: 63%;
+    position: relative;
+  }
+
+  #buy-button-wrapper {
+    width: 53%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+
+  .t1 {
+    left: 0;
+    top: 72%;
+  }
+
+  .t2 {
+    right: 0;
+  }
+
+  #pub-trailer-wrapper {
+    position: absolute;
+    bottom: 0;
+    height: 28%;
+    width: 45%;
+    overflow: hidden;
   }
 }
 
@@ -783,6 +828,44 @@ i {
 
   #pub-wrapper {
     height: auto;
+  }
+
+  /* WRITING/PUBLICATIONS VIEW */
+
+  #book-wrapper {
+    height: auto;
+  }
+
+  #book-cover {
+    height: auto;
+    width: 80%;
+    position: relative;
+  }
+
+  #buy-button-wrapper {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+
+  .t1 {
+    top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .t2 {
+    margin-top: 2%;
+  }
+
+  #pub-trailer-wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28vh;
+    width: 50vw;
+    overflow: hidden;
   }
 
   /* CONNECT VIEW */
@@ -966,6 +1049,42 @@ i {
   #pub-wrapper img {
     position: relative;
     width: 100%;
+  }
+
+  #book-wrapper {
+    height: auto;
+  }
+
+  #book-cover {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+
+  #buy-button-wrapper {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+
+  .t1 {
+    top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .t2 {
+    margin-top: 2%;
+  }
+
+  #pub-trailer-wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28vh;
+    width: 65vw;
+    overflow: hidden;
   }
 
   /* CONNECT VIEW */
