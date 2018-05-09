@@ -355,6 +355,32 @@ nav h2 {
   border-radius: 0 0 10px 10px;
 }
 
+#noms {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 12%;
+  margin-top: 5%;
+}
+
+#laurels {
+  background-image: url("images/laurels.png");
+  background-position: center;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+#noms h3 {
+  margin-bottom: 0;
+}
+
+#noms h2 {
+  margin-top: 0;
+}
+
 #blurb a {
   color: white;
 }
