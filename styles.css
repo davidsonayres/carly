@@ -37,7 +37,7 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   width: 11vw;
-  padding: 3vw 2vw;
+  padding: 3vw 1vw;
   float: left;
   margin-bottom: 5vh;
 }
@@ -522,6 +522,29 @@ i {
 
 #poetry-body #blurb {
   background-color: grey;
+}
+
+/* Q WEST */
+
+#qw-body #stage {
+  /* text-align: center; */
+}
+
+#qw-img {
+  /* position: relative; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 30vw;
+  background-image: url('images/qwest.jpg');
+  background-size: cover;
+}
+
+#qw-blurb {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  width: 60%;
 }
 
 @media only screen and (min-width:1024px) and (max-width:1279px) {
