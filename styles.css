@@ -100,8 +100,9 @@ nav h2 {
 
 #home-body {
   background-image: url("images/landscape1.jpg");
-  background-size: cover;
-  background-position: 10% 18%;
+  background-size: 80%;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 #home-body #stage {
