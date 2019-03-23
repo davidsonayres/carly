@@ -459,7 +459,7 @@ nav h2 {
   padding-bottom: 5%;
   position: relative;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 #book-cover {
@@ -470,10 +470,7 @@ nav h2 {
 
 #buy-button-wrapper {
   width: 80%;
-  /* position: absolute; */
   display: flex;
-  /* right: 0; */
-  /* top: 28%; */
   justify-content: center;
   margin: 0;
 }
@@ -486,14 +483,14 @@ nav h2 {
 #buy-button {
   border: 2px solid white;
   border-radius: 10px;
-  background-color: #A5264D;
+  background-color: #2B2B2B;
   color: white;
   width: 95%;
 }
 
 #buy-button:hover {
   background-color: white;
-  color: #A5264D
+  color: #2B2B2B
 }
 
 #buy-button p {
@@ -502,7 +499,7 @@ nav h2 {
 
 #book-blurb {
   width: 70%;
-  margin: 1% 2% 2% 5%;
+  margin: 5% 2% 2% 5%;
   text-align: left;
 }
 
