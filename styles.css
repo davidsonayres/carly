@@ -458,8 +458,8 @@ nav h2 {
   position: absolute;
   display: flex;
   right: 0;
+  top: 28%;
   justify-content: center;
-  margin-top: 2%;
 }
 
 #buy-button-wrapper a {
@@ -472,7 +472,7 @@ nav h2 {
   border-radius: 10px;
   background-color: #A5264D;
   color: white;
-  width: 100%;
+  width: 95%;
 }
 
 #buy-button:hover {
@@ -482,6 +482,15 @@ nav h2 {
 
 #buy-button p {
   padding: 2%;
+}
+
+#book-blurb {
+  position: absolute;
+  width: 48%;
+  margin: 1% 2% 2% 6%;
+  right: 0;
+  top: 0;
+  text-align: left;
 }
 
 #pub-trailer-wrapper {
