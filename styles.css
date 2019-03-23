@@ -407,7 +407,7 @@ nav h2 {
   height: 78vh;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15vh;
+  margin-top: 10vh;
   text-align: center;
 }
 
@@ -437,29 +437,45 @@ nav h2 {
 }
 
 #book-wrapper {
+  display: flex;
+  flex-direction: row;
   position: relative;
   width: 65vw;
-  height: 85vh;
+  height: 65vh;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 2%;
   text-align: center;
+}
+
+#bwl {
+  width: 48%;
+  margin-right: 2%;
+  position: relative;
+}
+
+#bwr {
+  width: 50%;
+  padding-bottom: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 #book-cover {
   height: 100%;
-  width: auto;
   position: absolute;
-  left: 0;
+  right: 0;
 }
 
 #buy-button-wrapper {
-  width: 53%;
-  position: absolute;
+  width: 80%;
+  /* position: absolute; */
   display: flex;
-  right: 0;
-  top: 28%;
+  /* right: 0; */
+  /* top: 28%; */
   justify-content: center;
+  margin: 0;
 }
 
 #buy-button-wrapper a {
@@ -485,9 +501,9 @@ nav h2 {
 }
 
 #book-blurb {
-  position: absolute;
-  width: 48%;
-  margin: 1% 2% 2% 6%;
+  /* position: absolute; */
+  width: 70%;
+  margin: 1% 2% 2% 5%;
   right: 0;
   top: 0;
   text-align: left;
