@@ -501,11 +501,8 @@ nav h2 {
 }
 
 #book-blurb {
-  /* position: absolute; */
   width: 70%;
   margin: 1% 2% 2% 5%;
-  right: 0;
-  top: 0;
   text-align: left;
 }
 
@@ -651,7 +648,7 @@ i {
   }
 
   #buy-button-wrapper {
-    width: 42%;
+    width: 80%;
   }
 
   #pub-trailer-wrapper {
@@ -773,21 +770,31 @@ i {
   /* WRITING/PUBLICATIONS VIEW */
 
   #book-wrapper {
-    height: 120vh;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  #bwl, #bwr {
+    width: 100%;
+  }
+
+  #book-blurb {
+    margin: auto;
+    padding-top: 5%;
+    width: 75%;
   }
 
   #book-cover {
     height: auto;
     width: 63%;
     position: relative;
+    margin-bottom: 3%;
   }
 
   #buy-button-wrapper {
     width: 53%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
+    margin: 2% auto;
   }
 
   .t1 {
@@ -938,7 +945,18 @@ i {
   /* WRITING/PUBLICATIONS VIEW */
 
   #book-wrapper {
-    height: auto;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  #bwl, #bwr {
+    width: 100%;
+  }
+
+  #book-blurb {
+    margin: auto;
+    padding-top: 5%;
+    width: 75%;
   }
 
   #book-cover {
@@ -950,9 +968,7 @@ i {
   #buy-button-wrapper {
     width: 80%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
+    margin: 2% auto;
   }
 
   .t1 {
@@ -1164,21 +1180,30 @@ i {
   }
 
   #book-wrapper {
-    height: auto;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  #bwl, #bwr {
+    width: 100%;
+  }
+
+  #book-blurb {
+    margin: auto;
+    padding-top: 5%;
+    width: 75%;
   }
 
   #book-cover {
     height: auto;
-    width: 100%;
+    width: 80%;
     position: relative;
   }
 
   #buy-button-wrapper {
-    width: 100%;
+    width: 80%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
+    margin: 2% auto;
   }
 
   .t1 {
