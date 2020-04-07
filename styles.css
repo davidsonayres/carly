@@ -566,6 +566,21 @@ i {
   width: 60%;
 }
 
+/* PIGS VIEW */
+
+#poster-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0 10vw;
+  text-align: center;
+}
+
+#poster-wrapper img{
+  position: relative;
+  width: 100%;
+}
+
 @media only screen and (min-width:1024px) and (max-width:1279px) {
 
   #menu-toggle {
