@@ -8,16 +8,19 @@
   text-transform: uppercase;
 }
 
-a {
+a,
+.dropdown p {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+a:hover,
+.dropdown p:hover {
   color: grey;
 }
 
-a:active {
+a:active,
+.dropdown p:active {
   color: white;
 }
 
@@ -50,6 +53,30 @@ nav h2 {
   cursor: pointer;
   font-weight: 600;
 }
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.dropdown p {
+  text-decoration: none;
+  margin: 2vh;
+  font-size: 1.15vw;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  margin-left: 12%;
+  z-index: 1;
+}
+
+.show {
+  display: block;
+} */
 
 #stage {
   width: 100vw;
